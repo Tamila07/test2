@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1674166985324,4803,GET Posts,200,OK,Thread Group 1-1,text,true,,28555,138,1,1,https://jsonplaceholder.typicode.com/posts,408,0,286
+1674166990127,217,POST,201,Created,Thread Group 1-1,text,false,Test failed: code expected to match /200/,1139,222,1,1,https://jsonplaceholder.typicode.com/posts,217,0,0
+1674166990344,244,PUT,200,OK,Thread Group 1-1,text,true,,1011,223,1,1,https://jsonplaceholder.typicode.com/posts/1,244,0,0
+1674166990589,417,PATCH,200,OK,Thread Group 1-1,text,true,,1263,225,1,1,http://jsonplaceholder.typicode.com/posts/1,417,0,114
+1674166991007,223,DELETE,200,OK,Thread Group 1-1,text,true,,1005,226,1,1,https://jsonplaceholder.typicode.com/posts/1,223,0,0
+1674166991231,562,GET Posts,200,OK,Thread Group 1-1,text,true,,28545,138,1,1,https://jsonplaceholder.typicode.com/posts,82,0,0
+1674166991794,215,POST,201,Created,Thread Group 1-1,text,false,Test failed: code expected to match /200/,1140,222,1,1,https://jsonplaceholder.typicode.com/posts,215,0,0
+1674166992009,214,PUT,200,OK,Thread Group 1-1,text,true,,1009,223,1,1,https://jsonplaceholder.typicode.com/posts/1,214,0,0
+1674166992223,273,PATCH,200,OK,Thread Group 1-1,text,true,,1271,225,1,1,http://jsonplaceholder.typicode.com/posts/1,273,0,0
+1674166992497,238,DELETE,200,OK,Thread Group 1-1,text,true,,1001,226,1,1,https://jsonplaceholder.typicode.com/posts/1,238,0,0
+1674166992736,850,GET Posts,200,OK,Thread Group 1-1,text,true,,28561,138,1,1,https://jsonplaceholder.typicode.com/posts,123,0,0
+1674166993587,220,POST,201,Created,Thread Group 1-1,text,false,Test failed: code expected to match /200/,1140,222,1,1,https://jsonplaceholder.typicode.com/posts,220,0,0
+1674166993808,192,PUT,200,OK,Thread Group 1-1,text,true,,1007,223,1,1,https://jsonplaceholder.typicode.com/posts/1,192,0,0
+1674166994001,241,PATCH,200,OK,Thread Group 1-1,text,true,,1265,225,1,1,http://jsonplaceholder.typicode.com/posts/1,241,0,0
+1674166994243,253,DELETE,200,OK,Thread Group 1-1,text,true,,997,226,1,1,https://jsonplaceholder.typicode.com/posts/1,253,0,0
